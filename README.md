@@ -17,7 +17,7 @@ Users should be able to:
 
 - View the optimal layout of the design depending on their device's screen size
 - Generate random bulgarian sayings
-- 
+
 ### Screenshot
 
 ![](./Bulgarian-sayings-generator/design/pc.png)
