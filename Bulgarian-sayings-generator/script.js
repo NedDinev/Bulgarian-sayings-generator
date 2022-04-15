@@ -1,5 +1,6 @@
 let quote = document.getElementById("quote");
 let button = document.getElementById("button");
+let numberOfQuotes = 832;
 let quoteList = [
   "Абе то ще се мре, ама току здраве да е.",
   "Агне в чувал не се купува.",
@@ -836,5 +837,5 @@ let quoteList = [
   "Я камилата, я камиларя.",
 ];
 function getRandomInt() {
-  quote.innerHTML = quoteList[Math.floor(Math.random() * 832)];
+  quote.innerHTML = quoteList[Math.floor(Math.random() * numberOfQuotes)];
 }
