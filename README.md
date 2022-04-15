@@ -44,7 +44,7 @@ let quote = document.getElementById("quote");
 let button = document.getElementById("button");
 let quoteList = [...];
 function getRandomInt() {
-  quote.innerHTML = quoteList[Math.floor(Math.random() * 832)];
+  quote.innerHTML = quoteList[Math.floor(Math.random() * quoteList.length)];
 }
 ```
 ### Useful resources
